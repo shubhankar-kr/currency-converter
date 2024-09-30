@@ -5,10 +5,19 @@
   text-align: center;
 }
 div {
-  background: white;
-  border:2px solid black ;
+  border:1px solid black ;
+  border-radius: 3px;
   display: flex;
-  margin: 0px;
+  background-color: antiquewhite;
+}
+.box{
+  padding:15px 8px;
+}
+input{
+  background:#414141;
+}
+input::placeholder{
+  padding: auto;
 }
 p{
   color: black;
